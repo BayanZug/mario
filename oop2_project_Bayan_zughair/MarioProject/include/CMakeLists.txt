@@ -1,0 +1,3 @@
+﻿target_include_directories (MarioProject PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+target_sources (MarioProject PRIVATE "GameObject.h" "DynamicObjects.h" "MarioWorld.h" "Mario.h" "Menu.h" "Enemy.h" "Resources.h" "Controller.h" "World_Block.h" "Goomba.h" "Gift.h" "Spiny.h" "Turtle.h" "ExtraAccesorios.h" "Boo.h" "Animation.h" "StaticBlock.h" "SpecialBlock.h"
+"Coin.h" "Flag.h" "Mashroom.h" "Star.h" "StaticObjects.h")
